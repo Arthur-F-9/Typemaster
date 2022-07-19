@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
+
+*{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.main {
+    height: 1870px;
+    width: 1440px;
+    position: relative;
+    background-color: white;
+}
+
+body{
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: white ;
+    display: block;
+    margin: 30px;
+}
+
+.content-box {
+    padding: 60px;
+    margin-left: 50px;
+
+}
+
+.content-line {
+    float: right;
+    padding: 0px 100px;
+}
+
+.top-section {
+    background-color: rgb(1, 13, 117);
+    text-align: center;
+    padding: 50px;
+    width: 90px;
+    height:10px;
+    border-radius: 4px;
+}
+
+.pg{
+        font-family: barlow;
+        font-style: normal;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-weight: 500;
+        display: inline;
+        
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: barlow;
+    font-style: normal;
+    font-weight:500;
+    color:#7B8BAD;
+    margin-left: 35%;
+  }
+
+.pp{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    display: inline;
+}
+
+.para{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0.10px;
+}
+
+p{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0.10px;
+}
+
+.p1{
+    color: #162542;
+    font-family:barlow;
+    font-size: 30px;
+}
+
+h3{
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+    
+}
+
+h4{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h2{
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.float{
+        width: 35%;
+        float:right;
+        display: block;
+}
+
+.floatp{
+    width: 35%;
+    float:right;
+    display: block;
+    margin-top: -20%;
+}
+
+
+.float-3{
+    width: 40%;
+    display: inline-block;
+}
+
+.float-1{
+    width: 25%;
+    float: right;
+    display: block;
+}
+.float-tt{
+    width: 27%;
+    float: right;
+    display:block;
+    margin-top: 0px;
+}
+
+.float1{
+    width: 22%;
+    float:left;
+    display: block;
+}
+.float-2 {
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.float-21 {
+    width: 20%;;
+    float: left;
+    display: block;
+}
+
+.imagepart2{
+    width: 225px;
+    height: 480px;
+    background-image: url(images/desktop/image-phone-and-keyboard.jpg);
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    opacity: 100%;
+    margin-right: 20px;
+}
+.color-overlay{
+    width:225px;
+    height: 480px;
+    background-color:#F16718;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.imagepart1{
+    width: 445px;
+    height: 480px;
+    background-image: url(images/desktop/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    display:inline-block;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
+}
+
+.imagepart{
+    width: 540px;
+    height: 480px;
+    background-image: url(images/desktop/image-keyboard.jpg);
+    background-size: cover;
+    display:inline-block;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+
+}
+
+
+.icon1{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-compatible.svg);
+    background-position: center;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    display:inline-block; 
+    margin-right:150px;
+}
+
+.icon2{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-bluetooth.svg);
+    background-position: center;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    display:inline-block; 
+    margin-right:150px;
+}
+
+.icon3{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-battery.svg);
+    background-position: center;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    display:inline-block; 
+    margin-right:150px;
+}
+
+.icon4{
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-light.svg);
+    background-position: center;
+    border-radius:16px;
+    background-repeat: no-repeat;
+    display:inline-block; 
+    margin-right:150px;
+}
+
+.box-small{
+    width: 40px;
+    height: 40px;
+    background-color: #F16718;
+    display: block;
+}
+
+.button{
+    background-color: #B2BEB5;
+    border-radius: 8px;
+    color: #162542;
+    font-size: 16px;
+    text-align: center;
+    width: 175px;
+    height: 58px;
+    border-style: none;
+    display: block;
+   
+}
+
+.button1{
+    background-color: #B2BEB5;
+    border-radius: 6px;
+    color:#162542;
+    font-size: 16px;
+    text-align: center;
+    width: 175px;
+    height: 58px;
+    border-style: none;
+}
+
+.button:hover{
+         background-color: #162542;
+         color: white;
+}
+
+.button1:hover{
+    background-color: #FF9B62;
+    color: white;
+}
+
+/* MEDIA QUERY FOR PHONE SIZE*/
+@media only screen and (min-width:320px) and (max-width:480px){
+    .main {
+        height: auto;
+        width: 480px;
+        position: relative;
+        background-color: white;
+    }
+
+    body{
+        width: 480px;
+        height: auto;
+        position: relative;
+        background-color: white ;
+        display: block;
+        margin: 30px;
+    }
+    
+    .content-box {
+        padding: 0.2px;
+        margin-left: 0.2px;
+    }
+
+    .float-2 {
+        width: 10%;
+        float: left;
+        display: block;
+    }
+
+    .float-tt {
+        width: 48%;
+        float: right;
+        display: block;
+    }
+
+    .button {
+        background-color: #B2BEB5;
+        border-radius: 8px;
+        color: #162542;
+        font-size: 16px;
+        text-align: center;
+        width: 170px;
+        height: 50px;
+        border-style: none;
+        display: block;
+}
+
+.para{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 0.10px;
+}
+
+h2 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top:100 px;
+}
+
+h3 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.float-2 {
+    width: 90%;
+    display: block;
+    margin-top: -15%;
+}
+
+.imagepart {
+    width: 420px;
+    height: 331px;
+    background-image: url(images/mobile/image-keyboard.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}   
+
+.imagepart2{
+   width:160px;
+   height:230px;
+    background-image: url(images/mobile/image-phone-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 100%;
+    position:relative;
+    right:10%;
+    margin-left: -20px;
+    
+
+}
+
+.color-overlay{
+    width:  165px;
+    height: 230px;
+    background-color:#F16718;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.imagepart1 {
+    width: 290px;
+    height: 230px;
+    background-image: url(images/desktop/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position:relative;
+    right:30px;
+    margin-left:-10%;
+    
+    
+}
+
+.float{
+    width: 125%;
+    float: right;
+    display: block;
+}
+
+.float1 {
+    width: 75%;
+    float: left;
+    display: block;
+    padding-top: 20%;
+}
+
+.floatp {
+    width: 100%;
+    float: right;
+    display: block;
+    margin-top:0%;
+    padding-right:10%;
+    
+}
+
+p {
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0.1px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+
+.icon1 {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-compatible.svg);
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin-left: 169px;
+    
+}
+
+.icon2 {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-bluetooth.svg);
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 169px;
+}
+
+.icon3 {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-battery.svg);
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 169px;
+}
+
+.icon4 {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    display: inline-block;
+    background-image: url(images/shared/icon-light.svg);
+    background-position: center;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 169px;
+}
+.float-3{
+    padding-top: 30px;
+}
+
+#bottom {
+    clear: both;
+    position: relative;
+    display: center;
+    font-family: barlow;
+    font-style: normal;
+    font-weight: 500;
+    color: #7B8BAD;
+    margin-top: -50%;
+    margin-left: 50px;
+    padding-top: 10%;
+}
+
+}
+
+/* MEDIA QUERY FOR TABLET*/
+@media only screen and (min-width:481px) and (max-width:825px){
+
+    *{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 700px;
+    }
+
+    .main {
+        height: auto;
+        width: 820px;
+        position: relative;
+        background-color: white;
+    }
+    
+    body{
+        width: auto;
+        height: auto;
+        position: relative;
+        background-color: white ;
+        display: block;
+        margin: 30px;
+    }
+    
+    .content-box {
+        padding: 20px;
+        margin-left: 20px;
+    
+    }
+    .float-2 {
+        width: 10%;
+        float: left;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .float-tt {
+        width: 30%;
+        float: right;
+        display: block;
+    }
+
+    .button {
+        background-color: #B2BEB5;
+        border-radius: 8px;
+        color: #162542;
+        font-size: 16px;
+        text-align: center;
+        width: 170px;
+        height: 50px;
+        border-style: none;
+        display: block;
+}
+
+h2 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+h3 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.float-2 {
+    width: 50%;
+    display: block;
+    margin-top: -17%;
+}
+
+.imagepart {
+    width: 350px;
+    height: 425px;
+    background-image: url(images/mobile/image-keyboard.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    margin-top: -100%;
+}   
+
+.imagepart2{
+    width: 225px;
+    height: 350px;
+    background-image: url(images/desktop/image-phone-and-keyboard.jpg);
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-left:-50%;
+}
+.color-overlay{
+    width:225px;
+    height: 350px;
+    background-color:#F16718;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.imagepart1{
+    width: 450px;
+    height: 350px;
+    background-image: url(images/desktop/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    display:inline-block;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    
+}
+
+h3 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: -15%;
+
+}
+.float {
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+.floatp {
+    width: 60%;
+    float: right;
+    display: block;
+    margin-top: -18%;
+}
+
+h3 {
+    color: #162542;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: -13%;
+}
+.float1 {
+    width: 50%;
+    float: left;
+    display: block;
+    margin-top: 15%;
+}
+
+.float-3 {
+    width: 50%;
+    display: inline-block;
+}
+
+#bottom {
+    clear: both;
+    position: relative;
+    display: center;
+    font-family: barlow;
+    font-style: normal;
+    font-weight: 500;
+    color: #7B8BAD;
+    margin-top: -50%;
+    margin-right: -30%;
+    padding-top: 10%;
+}
+}
