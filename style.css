@@ -15,6 +15,7 @@
     background-color: white;
 }
 
+
 body{
     width: auto;
     height: auto;
@@ -26,8 +27,7 @@ body{
 
 .content-box {
     padding: 60px;
-    margin-left: 50px;
-
+    margin-left: 50px; 
 }
 
 .content-line {
@@ -62,7 +62,7 @@ body{
     font-style: normal;
     font-weight:500;
     color:#7B8BAD;
-    margin-left: 35%;
+    margin-left: 40%;
   }
 
 .pp{
@@ -152,7 +152,7 @@ h2{
     display: block;
 }
 .float-tt{
-    width: 27%;
+    width: 22%;
     float: right;
     display:block;
     margin-top: 0px;
